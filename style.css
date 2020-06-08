@@ -1,0 +1,70 @@
+/*My external style sheet*/
+body {
+    margin-top: auto;
+    /*Changes background color of website*/
+    background: black;
+    /*Changes text color of website*/
+    color: yellow;
+    /*Gives website some room on the sides*/
+    Padding: 25px;
+    /*Changes font of website*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 10em;
+    border-bottom: 3px solid yellowgreen;
+}
+
+h2{
+    background-color: darkgray;
+}
+
+/*The h1 id tag*/
+#Home{
+    color: red;
+}
+
+/*picture*/
+#scary{
+    width: 350px;
+
+    /*You need to have a border-width and border-style before using border-image.*/
+    border-width: 1px;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+
+
+/*h2?*/
+#main_reasons{
+    padding: 5px;
+}
+
+/*unordered list bullets*/
+#list_reasons{
+    background-color: gray;
+    color: black;
+    padding: 3px;
+}
+
+.heading{
+    color: darkblue;
+    font-size: 3em;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    background-color: darkslateblue;
+    font-size: 3em;
+    padding: 10px;
+}
+
+h5{
+    text-align: center;
+    color: black;
+    background-color: red;
+    font-size: 5em;
+    padding: 5px;
+}
